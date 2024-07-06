@@ -1,0 +1,136 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  min-width: 500px;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+h3 {
+  margin-top: 30px;
+  color: #333;
+  text-align: center;
+}
+
+
+.course-list {
+  list-style: none;
+  padding: 0;
+}
+
+.course-item {
+  padding: 15px 20px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.course-item:hover {
+  background-color: #c92f01;
+  color: white;
+}
+
+.course-title {
+  font-size: 18px;
+  color: #333;
+}
+
+.course-item:hover .course-title {
+  color: white;
+}
+
+
+.course-details {
+  margin-top: 30px;
+}
+
+.question-list {
+  list-style: none;
+  padding: 0;
+}
+
+.question-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.question-item:last-child {
+  border-bottom: none;
+}
+
+.question-text {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 18px;
+}
+
+
+.answer-input {
+  width: calc(100% - 120px);
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.answer-input::placeholder {
+  color: #999;
+}
+
+.answer-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+
+p {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}

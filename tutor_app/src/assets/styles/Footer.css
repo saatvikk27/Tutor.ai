@@ -1,0 +1,61 @@
+.footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  background: url('../images/footer-bg.png') top center no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+}
+
+.footer::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  z-index: 1; 
+}
+
+.footer-logo,
+.footer-links,
+.footer-text {
+  position: relative;
+  z-index: 2; 
+
+}
+
+.footer-logo img {
+  height: 50px;
+}
+
+.footer-links {
+  margin-top: 5px;
+  
+}
+
+.footer-links a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 30px;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+  height: 10px;
+  width: 10px;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.footer-text p {
+  color: white;
+  margin: 20px 0 0;
+}
+
+.footer-text span {
+  
+  font-weight: bold;
+}
